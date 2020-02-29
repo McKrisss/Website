@@ -1,0 +1,13 @@
+#banner img{
+  width:70px;
+  position: relative;
+  left:10px;
+  top: 110px;
+}
+#banner{
+  margin:0px;
+  padding:0px;
+  background-image: url('../img/banner/banner4.jpg');
+  background-size:100%;
+  height:200px;
+}

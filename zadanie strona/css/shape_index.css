@@ -1,0 +1,84 @@
+
+    @media(min-width: 0px) {
+    section .importnant{
+      display:block;
+      flex:3;
+    }
+    section .less_importnant{
+      display:block;
+      flex:2;
+    }
+    section{
+      flex-direction: column;
+      min-height:1200px;
+    }
+  }
+  @media(min-width: 576px) {
+    section .importnant{
+      display:block;
+      flex:3;
+    }
+    section .less_importnant{
+      display:block;
+      flex:2;
+    }
+    section{
+      flex-direction: column;
+      min-height:1200px;
+    }
+  }
+  @media(min-width: 768px) {
+    section .importnant{
+      flex:3;
+    }
+    section .less_importnant{
+      display:none;
+    }
+    section{
+      flex-direction: row;
+      min-height:400px;
+    }
+  }
+  @media(min-width: 992px) {
+    section .importnant{
+      flex:3;
+    }
+    section .less_importnant{
+      display:none;
+    }
+  }
+@media(min-width: 1200px) {
+    section .importnant{
+      flex:3;
+      display:block;
+    }
+    section .less_importnant{
+      flex:2;
+      display:block;
+    }
+  }
+  
+  section div{
+    background-color:aliceblue;
+      box-sizing: border-box;
+      height: 480px;
+      margin: 5px;
+    }
+  section{
+      width: 100%;
+      display:flex;
+    }
+
+    @keyframes kolor{
+      from{
+        background-color: aliceblue; 
+      }
+      to{
+        background-color: rgb(231, 236, 240);
+      }
+    }
+    .importnant:hover,.less_importnant:hover{
+      background-color: rgb(231, 236, 240);
+      animation: kolor 1s;
+
+    }

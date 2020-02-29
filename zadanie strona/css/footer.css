@@ -1,0 +1,23 @@
+footer>div{
+  display: flex;
+  width: 100%;
+  background-color: aliceblue
+}
+footer>div>div{
+  flex:1;
+  padding:15px;
+  box-sizing: border-box;
+}
+footer a{
+  color:black;
+  text-decoration: none;
+  text-align: left;
+}
+footer a:hover{
+  color:red;
+  font-style: italic;
+}
+pre{
+  margin:0px;
+  padding: 0px;
+}
